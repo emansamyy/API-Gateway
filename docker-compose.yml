@@ -7,7 +7,7 @@ services:
     volumes:
       - .:/app
     environment:
-      - DJANGO_SETTINGS_MODULE=bookstore_gateway.bookstore_gateway.settings
+      - DJANGO_SETTINGS_MODULE=bookstore_gateway.settings
     ports:
       - "8000:8000"
     env_file:

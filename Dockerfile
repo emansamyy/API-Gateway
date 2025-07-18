@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn", "bookstore_gateway.bookstore_gateway.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "bookstore_gateway.wsgi:application", "--bind", "0.0.0.0:8000"]
