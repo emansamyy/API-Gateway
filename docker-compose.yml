@@ -3,7 +3,7 @@ version: '3.9'
 services:
   web:
     build: .
-    command: gunicorn bookstore_gateway.bookstore_gateway.wsgi:application --bind 0.0.0.0:8000
+    command: gunicorn bookstore_gateway.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - .:/app
     environment:
