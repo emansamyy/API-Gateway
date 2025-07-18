@@ -49,7 +49,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "bookstore_gateway.urls"
+ROOT_URLCONF = "bookstore_gateway.bookstore_gateway.urls"
 
 TEMPLATES = [
     {
